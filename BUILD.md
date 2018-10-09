@@ -39,8 +39,11 @@ list some basic and more used commands as example.
     ```sh
     ./waf configure --board bebop --static
     ./waf copter
-    ```    
-
+    ```
+    If building for the intel aero RTF:
+    ```
+    ./waf configure –board aerofc-v1 ./waf copter –upload
+    ```
     The "arducopter" and "arducopter-heli" binaries should appear in the `build/<board-name>/bin` directory.
 
 * **List available boards**
